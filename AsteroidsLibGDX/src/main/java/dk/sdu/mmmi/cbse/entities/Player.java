@@ -5,7 +5,11 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.main.Game;
 
+import java.util.ArrayList;
+
 public class Player extends SpaceObject {
+    private final int MAX_BULLETS = 4;
+    private ArrayList<Bullet> bullets;
 
     private boolean left;
     private boolean right;
@@ -15,7 +19,9 @@ public class Player extends SpaceObject {
     private float acceleration;
     private float deceleration;
 
-    public Player() {
+    public Player(ArrayList<Bullet> bullets) {
+
+        this.bullets = bullets;
 
         x = Game.WIDTH / 2;
         y = Game.HEIGHT / 2;
@@ -44,6 +50,11 @@ public class Player extends SpaceObject {
 
         shapex[3] = x + MathUtils.cos(radians + 4 * 3.1415f / 5) * 8;
         shapey[3] = y + MathUtils.sin(radians + 4 * 3.1415f / 5) * 8;
+    }
+
+    public void shoot(){
+        if(bullets.size() == MAX_BULLETS) return;
+        bullets.add(new Bullet(x, y, radians));
     }
 
     public void setLeft(boolean b) {
@@ -113,5 +124,15 @@ public class Player extends SpaceObject {
         sr.end();
 
     }
+    public boolean isHit(){
+        return false;
+    }
 
+    public float gety(){
+        return y;
+    }
+
+    public float getx() {
+        return x;
+    }
 }
