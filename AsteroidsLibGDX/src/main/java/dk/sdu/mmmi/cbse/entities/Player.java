@@ -8,6 +8,7 @@ import dk.sdu.mmmi.cbse.main.Game;
 import java.util.ArrayList;
 
 public class Player extends SpaceObject {
+
     private final int MAX_BULLETS = 4;
     private ArrayList<Bullet> bullets;
 
@@ -18,6 +19,8 @@ public class Player extends SpaceObject {
     private float maxSpeed;
     private float acceleration;
     private float deceleration;
+
+
 
     public Player(ArrayList<Bullet> bullets) {
 
@@ -52,10 +55,6 @@ public class Player extends SpaceObject {
         shapey[3] = y + MathUtils.sin(radians + 4 * 3.1415f / 5) * 8;
     }
 
-    public void shoot(){
-        if(bullets.size() == MAX_BULLETS) return;
-        bullets.add(new Bullet(x, y, radians));
-    }
 
     public void setLeft(boolean b) {
         left = b;
@@ -67,6 +66,11 @@ public class Player extends SpaceObject {
 
     public void setUp(boolean b) {
         up = b;
+    }
+
+    public void shoot() {
+        if(bullets.size() == MAX_BULLETS) return;
+        bullets.add(new Bullet(x, y, radians));
     }
 
     public void update(float dt) {
@@ -112,27 +116,14 @@ public class Player extends SpaceObject {
         sr.setColor(1, 1, 1, 1);
 
         sr.begin(ShapeType.Line);
-
+        // draw ship
         for (int i = 0, j = shapex.length - 1;
-                i < shapex.length;
-                j = i++) {
+             i < shapex.length;
+             j = i++) {
 
             sr.line(shapex[i], shapey[i], shapex[j], shapey[j]);
 
         }
-
         sr.end();
-
-    }
-    public boolean isHit(){
-        return false;
-    }
-
-    public float gety(){
-        return y;
-    }
-
-    public float getx() {
-        return x;
     }
 }
