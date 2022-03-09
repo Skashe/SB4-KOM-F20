@@ -24,6 +24,7 @@
             <name>NetBeans</name>
             <url>http://bits.netbeans.org/nexus/content/groups/netbeans/</url>
         </repository>
+
     </repositories>
 
     <build>
@@ -68,6 +69,15 @@
         <module>Core</module>
         <module>Enemy</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-lookup</artifactId>
+            <version>RELEASE125</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <netbeans.version>RELEASE125</netbeans.version>
