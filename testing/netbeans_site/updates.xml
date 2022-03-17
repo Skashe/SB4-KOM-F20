@@ -6,9 +6,9 @@
 
 
 <module codenamebase="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" distribution="Asteroid-1.0-SNAPSHOT.nbm" downloadsize="8737" license="CEB166E5" needsrestart="false" releasedate="2022/03/17" targetcluster="testing">
-        
+
     <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse.asteroidsystem" OpenIDE-Module-Implementation-Version="1.0-20220317" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.41, dk.sdu.mmmi.cbse.common.Common &gt; 1.0, org.openide.util.lookup &gt; 8.47" OpenIDE-Module-Name="Asteroid" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
-        
+
 
 </module>
 
