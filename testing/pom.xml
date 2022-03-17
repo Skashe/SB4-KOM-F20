@@ -68,13 +68,14 @@
         <module>Common</module>
         <module>Core</module>
         <module>Enemy</module>
+        <module>SilentUpdate</module>
     </modules>
 
     <dependencies>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util-lookup</artifactId>
-            <version>RELEASE125</version>
+            <version>${netbeans.version}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
