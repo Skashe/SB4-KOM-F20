@@ -3,14 +3,14 @@
 <!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.5//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_5.dtd">
 <module_updates timestamp="19/41/13/17/03/2022">
 
+    <module codenamebase="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" distribution="Asteroid-1.0-SNAPSHOT.nbm" downloadsize="8741" license="CEB166E5" needsrestart="false" releasedate="2022/04/07" targetcluster="testing">
+
+        <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse.asteroidsystem" OpenIDE-Module-Implementation-Version="1.0-20220407" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.41, dk.sdu.mmmi.cbse.common.Common &gt; 1.0, org.openide.util.lookup &gt; 8.47" OpenIDE-Module-Name="Asteroid" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="2.0"/>
 
 
-<module codenamebase="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" distribution="Asteroid-1.0-SNAPSHOT.nbm" downloadsize="8737" license="CEB166E5" needsrestart="false" releasedate="2022/03/17" targetcluster="testing">
-
-    <manifest OpenIDE-Module="dk.sdu.mmmi.cbse.asteroidsystem.Asteroid" OpenIDE-Module-Display-Category="dk.sdu.mmmi.cbse.asteroidsystem" OpenIDE-Module-Implementation-Version="1.0-20220317" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.41, dk.sdu.mmmi.cbse.common.Common &gt; 1.0, org.openide.util.lookup &gt; 8.47" OpenIDE-Module-Name="Asteroid" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
+    </module>
 
 
-</module>
 
 <module codenamebase="org.openide.util" distribution="org-openide-util-RELEASE125.nbm" downloadsize="211402" homepage="http://www.netbeans.org/" license="7184D0AF" moduleauthor="" needsrestart="false" releasedate="2021/09/08" targetcluster="platform">
         

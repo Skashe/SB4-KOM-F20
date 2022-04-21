@@ -83,5 +83,6 @@
     <properties>
         <netbeans.version>RELEASE125</netbeans.version>
         <brandingToken>testing</brandingToken>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>

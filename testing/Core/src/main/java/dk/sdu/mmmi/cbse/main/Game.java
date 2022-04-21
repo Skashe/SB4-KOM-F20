@@ -137,6 +137,14 @@ public class Game implements ApplicationListener {
 
             Collection<? extends IGamePluginService> updated = result.allInstances();
 
+            // Stop and remove module
+            for (IGamePluginService gs : gamePlugins) {
+                if (!updated.contains(gs)) {
+                    gs.stop(gameData, world);
+                    gamePlugins.remove(gs);
+                }
+            }
+
             for (IGamePluginService us : updated) {
                 // Newly installed modules
                 if (!gamePlugins.contains(us)) {
@@ -145,13 +153,6 @@ public class Game implements ApplicationListener {
                 }
             }
 
-            // Stop and remove module
-            for (IGamePluginService gs : gamePlugins) {
-                if (!updated.contains(gs)) {
-                    gs.stop(gameData, world);
-                    gamePlugins.remove(gs);
-                }
-            }
         }
 
     };

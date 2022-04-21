@@ -54,11 +54,6 @@
         </dependency>
         <dependency>
             <groupId>com.badlogicgames.gdx</groupId>
-            <artifactId>gdx-backend-lwjgl</artifactId>
-            <version>${libGDX.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.badlogicgames.gdx</groupId>
             <artifactId>gdx</artifactId>
             <version>${libGDX.version}</version>
             <type>jar</type>
