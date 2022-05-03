@@ -47,16 +47,13 @@
   <modules>
     <module>poms</module>
     <module>provision</module>
-    <module>dk.sdu.mmmi.cbse.OSGiAsteroidSplitter</module>
     <module>dk.sdu.mmmi.cbse.OSGiAsteroids</module>
     <module>dk.sdu.mmmi.cbse.OSGiCommon</module>
-    <module>dk.sdu.mmmi.cbse.OSGiCommonAsteroids</module>
-    <module>dk.sdu.mmmi.cbse.OSGiCommonBullet</module>
-    <module>dk.sdu.mmmi.cbse.OSGiCommonEnemy</module>
     <module>dk.sdu.mmmi.cbse.OSGiCore</module>
     <module>dk.sdu.mmmi.cbse.OSGiEnemy</module>
-    <module>dk.sdu.mmmi.cbse.OSGiLaser</module>
     <module>dk.sdu.mmmi.cbse.OSGiLibGDX</module>
+    <module>dk.sdu.mmmi.cbse.OSGiCollision</module>
+    <module>dk.sdu.mmmi.cbse.OSGiPlayer</module>
   </modules>
 
   <build>
