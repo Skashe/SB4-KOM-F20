@@ -40,6 +40,8 @@
     -->
     <org.osgi.service.http.port>8080</org.osgi.service.http.port>
     <org.osgi.service.http.port.secure>8443</org.osgi.service.http.port.secure>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <packaging>pom</packaging>
@@ -68,6 +70,7 @@
           -->
           <provision>
             <param>--platform=felix</param>
+            <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</param>
           </provision>
         </configuration>
         <executions>
