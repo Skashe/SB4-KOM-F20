@@ -1,6 +1,6 @@
-package dk.sdu.mmmi.cbse.OSGiCommon.data;
+package dk.sdu.mmmi.OSGiCommon.data;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.events.Event;
+import dk.sdu.mmmi.OSGiCommon.events.Event;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

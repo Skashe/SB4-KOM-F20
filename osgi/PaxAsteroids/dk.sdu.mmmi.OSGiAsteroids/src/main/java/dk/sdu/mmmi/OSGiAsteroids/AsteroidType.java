@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.cbse.OSGiAsteroids;
+package dk.sdu.mmmi.OSGiAsteroids;
 
 public enum AsteroidType {
     LARGE(6, 25, 10f, 8),

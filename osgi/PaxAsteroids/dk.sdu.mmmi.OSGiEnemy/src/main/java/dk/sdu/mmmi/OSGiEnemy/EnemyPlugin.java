@@ -1,12 +1,12 @@
-package dk.sdu.mmmi.cbse.OSGiEnemy;
+package dk.sdu.mmmi.OSGiEnemy;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.LifePart;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.MovingPart;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IGamePluginService;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.LifePart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.MovingPart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.PositionPart;
+import dk.sdu.mmmi.OSGiCommon.services.IGamePluginService;
 
 
 import java.util.Random;

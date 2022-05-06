@@ -1,7 +1,7 @@
-package dk.sdu.mmmi.cbse.OSGiAsteroids;
+package dk.sdu.mmmi.OSGiAsteroids;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.MovingPart;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.MovingPart;
 
 import java.util.Random;
 

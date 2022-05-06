@@ -1,7 +1,7 @@
-package dk.sdu.mmmi.cbse.OSGiCommon.services;
+package dk.sdu.mmmi.OSGiCommon.services;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.World;
 
 public interface IGamePluginService {
     void start(GameData gameData, World world);

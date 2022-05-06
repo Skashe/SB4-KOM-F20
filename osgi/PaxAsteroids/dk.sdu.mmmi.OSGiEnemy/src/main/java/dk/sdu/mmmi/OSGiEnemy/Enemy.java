@@ -1,6 +1,6 @@
-package dk.sdu.mmmi.cbse.OSGiEnemy;
+package dk.sdu.mmmi.OSGiEnemy;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
 
 
 public class Enemy extends Entity {

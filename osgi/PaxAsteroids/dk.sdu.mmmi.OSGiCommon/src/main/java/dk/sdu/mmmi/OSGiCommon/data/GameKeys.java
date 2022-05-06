@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.cbse.OSGiCommon.data;
+package dk.sdu.mmmi.OSGiCommon.data;
 
 public class GameKeys {
 

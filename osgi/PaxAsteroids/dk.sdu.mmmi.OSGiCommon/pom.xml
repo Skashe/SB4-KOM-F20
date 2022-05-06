@@ -9,7 +9,7 @@
   </parent>
 
   <properties>
-    <bundle.symbolicName>dk.sdu.mmmi.common</bundle.symbolicName>
+    <bundle.symbolicName>dk.sdu.mmmi.OSGiCommon</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi</bundle.namespace>
   </properties>
 

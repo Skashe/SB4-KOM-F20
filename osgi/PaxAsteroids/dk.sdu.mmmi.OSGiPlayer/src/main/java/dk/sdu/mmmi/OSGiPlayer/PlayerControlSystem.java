@@ -1,15 +1,15 @@
-package dk.sdu.mmmi.cbse.OSGiPlayer;
+package dk.sdu.mmmi.OSGiPlayer;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import static dk.sdu.mmmi.cbse.OSGiCommon.data.GameKeys.LEFT;
-import static dk.sdu.mmmi.cbse.OSGiCommon.data.GameKeys.RIGHT;
-import static dk.sdu.mmmi.cbse.OSGiCommon.data.GameKeys.UP;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.LifePart;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.MovingPart;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IEntityProcessingService;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import static dk.sdu.mmmi.OSGiCommon.data.GameKeys.LEFT;
+import static dk.sdu.mmmi.OSGiCommon.data.GameKeys.RIGHT;
+import static dk.sdu.mmmi.OSGiCommon.data.GameKeys.UP;
+import dk.sdu.mmmi.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.LifePart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.MovingPart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.PositionPart;
+import dk.sdu.mmmi.OSGiCommon.services.IEntityProcessingService;
 
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;

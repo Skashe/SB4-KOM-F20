@@ -1,21 +1,18 @@
-package dk.sdu.mmmi.cbse.OSGiCollision;
+package dk.sdu.mmmi.OSGiCollision;
 
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.LifePart;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.PositionPart;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IPostEntityProcessingService;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.LifePart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.PositionPart;
+import dk.sdu.mmmi.OSGiCommon.services.IPostEntityProcessingService;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- *
- * @author corfixen
- */
+
 
 public class Collision implements IPostEntityProcessingService {
 

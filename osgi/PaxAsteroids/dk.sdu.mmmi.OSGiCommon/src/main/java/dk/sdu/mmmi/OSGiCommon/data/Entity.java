@@ -1,6 +1,6 @@
-package dk.sdu.mmmi.cbse.OSGiCommon.data;
+package dk.sdu.mmmi.OSGiCommon.data;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.entityparts.EntityPart;
+import dk.sdu.mmmi.OSGiCommon.data.entityparts.EntityPart;
 import java.io.Serializable;
 import java.util.Map;
 import java.util.UUID;

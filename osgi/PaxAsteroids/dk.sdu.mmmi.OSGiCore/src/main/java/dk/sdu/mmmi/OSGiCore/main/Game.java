@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.cbse.OSGiCore.main;
+package dk.sdu.mmmi.OSGiCore.main;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
@@ -7,13 +7,13 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.Entity;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IGamePluginService;
-import dk.sdu.mmmi.cbse.OSGiCommon.services.IPostEntityProcessingService;
-import dk.sdu.mmmi.cbse.OSGiCore.managers.GameInputProcessor;
+import dk.sdu.mmmi.OSGiCommon.data.Entity;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.services.IEntityProcessingService;
+import dk.sdu.mmmi.OSGiCommon.services.IGamePluginService;
+import dk.sdu.mmmi.OSGiCommon.services.IPostEntityProcessingService;
+import dk.sdu.mmmi.OSGiCore.managers.GameInputProcessor;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 

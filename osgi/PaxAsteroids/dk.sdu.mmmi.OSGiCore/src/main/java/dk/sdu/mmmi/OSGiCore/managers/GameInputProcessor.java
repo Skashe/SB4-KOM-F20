@@ -1,9 +1,9 @@
-package dk.sdu.mmmi.cbse.OSGiCore.managers;
+package dk.sdu.mmmi.OSGiCore.managers;
 
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameKeys;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.GameKeys;
 
 public class GameInputProcessor extends InputAdapter {
 

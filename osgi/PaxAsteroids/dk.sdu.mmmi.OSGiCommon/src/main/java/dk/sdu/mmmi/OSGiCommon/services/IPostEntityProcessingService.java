@@ -1,12 +1,12 @@
-package dk.sdu.mmmi.cbse.OSGiCommon.services;
+package dk.sdu.mmmi.OSGiCommon.services;
 
-import dk.sdu.mmmi.cbse.OSGiCommon.data.GameData;
-import dk.sdu.mmmi.cbse.OSGiCommon.data.World;
+import dk.sdu.mmmi.OSGiCommon.data.GameData;
+import dk.sdu.mmmi.OSGiCommon.data.World;
 
-/**
- *
- * @author jcs
- */
+
+
+
+
 public interface IPostEntityProcessingService  {
         void process(GameData gameData, World world);
 }

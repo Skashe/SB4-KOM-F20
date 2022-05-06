@@ -10,7 +10,7 @@
 
   <properties>
     <bundle.symbolicName>dk.sdu.mmmi.OSGiCore</bundle.symbolicName>
-    <bundle.namespace>dk.sdu.mmmi.OSGiCore</bundle.namespace>
+    <bundle.namespace>dk.sdu.mmmi</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
