@@ -57,7 +57,7 @@ public class LaserSystem implements IEntityProcessingService, BulletSPI {
         
 
         bullet.add(new PositionPart(bx + x, by + y, radians));
-        bullet.add(new LifePart(1));
+        bullet.add(new LifePart(1, 0));
         bullet.add(new MovingPart(0, 5000000, speed, 5));
         bullet.add(new TimerPart(1));
 

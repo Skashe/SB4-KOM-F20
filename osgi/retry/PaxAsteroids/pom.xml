@@ -60,6 +60,7 @@
     <module>OSGiEnemy</module>
     <module>OSGiLibGDX</module>
     <module>OSGiCollision</module>
+    <module>OSGiPlayer</module>
   </modules>
 
   <build>

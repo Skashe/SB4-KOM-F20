@@ -18,7 +18,7 @@ public class LifePart implements EntityPart {
     private boolean isHit = false;
 
 
-    public LifePart(int life) {
+    public LifePart(int life, int i) {
         this.life = life;
     }
 

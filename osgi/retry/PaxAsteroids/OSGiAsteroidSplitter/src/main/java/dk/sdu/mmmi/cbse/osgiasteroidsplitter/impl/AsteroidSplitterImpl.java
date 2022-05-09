@@ -46,7 +46,7 @@ public class AsteroidSplitterImpl implements IAsteroidSplitter {
         PositionPart astPositionPart1 = new PositionPart(otherPos.getX() + bx1, otherPos.getY() + by1, radians1);
         asteroid1.add(new MovingPart(0, 5000, speed, 0));
         asteroid1.add(astPositionPart1);
-        asteroid1.add(new LifePart(life));
+        asteroid1.add(new LifePart(life, 0));
         
         world.addEntity(asteroid1);
         
@@ -61,7 +61,7 @@ public class AsteroidSplitterImpl implements IAsteroidSplitter {
         
         asteroid2.add(new MovingPart(0, 5000, speed, 0));
         asteroid2.add(astPositionPart2);
-        asteroid2.add(new LifePart(life));
+        asteroid2.add(new LifePart(life, 0));
         
         world.addEntity(asteroid2);
         
